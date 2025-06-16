@@ -5,11 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>INTRODUCCION A JS</title>
     <link rel="stylesheet" href="public/bootstrap-5.3.5-dist/css/bootstrap.min.css">
+    
 </head>
 <body>
-    
-    <h1>HOLA MUNDO</h1>
+    <h1>
+        SUMA DE DOS NUMEROS
+    </h1>
+    <br>
+    <label for="numer_uno"> Ingrese primer numero</label>
+    <input type="number" id="numero_uno"  class="form-control">
+    <br>
+    <label for="numero_dos"> Ingrese segundo numero</label>
+    <input type="number" id="numero_dos" class="form-control"> 
+    <br>
+    <button onclick="calcular_suma()" id="btn_suma" class="btn btn-primary">Sumar</button>
+    <br>
+    <h1 id="txt_resultado"></h1>
+
+
     <script src="public/bootstrap-5.3.5-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="public/js/suma.js"></script>
 </body>
+    
 
 </html>
